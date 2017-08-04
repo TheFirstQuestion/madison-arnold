@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Company Name | motto</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	
+	
+	<script>
+	
+	$(document).ready(function() {
+		$('a[href*=#]').each(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname && this.hash.replace(/#/,'') ) {
+				var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+				var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+				if ($target) {
+					var targetOffset = $target.offset().top;
+					$(this).click(function() {
+						$('html, body').animate({scrollTop: targetOffset}, 900);
+						return false;
+					});
+				}
+			}
+		});
+	});
+	
+	</script>
+</head>
+
+
+<body>
+<!----- HEADER START---> 
+<header id="header">
+	<div class="content">
+		<div id="logo" class="blur"><a href=""> COMPANY NAME </a></div>
+		<nav id="nav">
+		<ul>
+			<li><a href="#slide1" title="Next Section">page 1</a></li>
+			<li><a href="#slide2" title="Next Section">page 2</a></li>
+			<li><a href="#slide3" title="Next Section">page 3</a></li>
+			<li><a href="#slide4" title="Next Section">page 4</a></li>
+			<li><a href="#slide5" title="Next Section">page 5</a></li>
+		</ul>
+		</nav>
+	</div>
+</header>
+
+
+<!----- SLIDES START ---> 
+<div id="slide1">
+	<div class="content shadow">
+		<div id="christmas_tree"> </div>
+		<div id="snowflakes1"></div>
+		<div id="snowflakes2"></div>
+		<h2>the next space race</h2>
+		<h1>THE FINAL FRONTIER</h1>
+		<h2>begins here</h2>
+		<div id="divider"> </div>
+		<h3>join us below</h3>
+		<div id="ribbon"></div>
+		<div id="new_year"> </div>
+	</div> 
+</div> 
+
+
+<div id="slide2">
+	<div class="content">
+		<div class="quotes_container">
+			<h3 class="quotes">"The contemplation of celestial things will make a man both speak and think more sublimely and magnificently when he descends to human affairs."</h3>
+			<img src="img/dr-seuss.png" align="left"/><h4 class="author_name_gray">Marcus Tullius Cicero</h4>
+		</div> 
+	</div> 
+</div> 
+
+
+
+<div id="slide3">
+	<div class="content shadow">
+		<div class="quotes_container">
+			<h3 class="quotes">"Looking at these stars suddenly dwarfed my own troubles and all the gravities of terrestrial life. I thought of their unfathomable distance, and the slow inevitable drift of their movements out of the unknown past into the unknown future."</h3>
+			<img src="img/norman.png" align="left"/><h4 class="author_name_white">H.G. Wells</h4>
+		</div> 
+	</div> 
+</div> 
+
+
+
+<div id="slide4">
+	<div class="content">
+		<div class="quotes_container">
+			<h3 class="quotes">“Equipped with his five senses, man explores the universe around him and calls the adventure Science."</h3>
+			<img src="img/dr-seuss.png" align="left"/><h4 class="author_name_gray">Edwin Hubble</h4>
+		</div> 
+	</div> 
+</div> 
+
+
+
+<div id="slide5">
+	<div class="content shadow">
+		<div class="quotes_container">
+			<h3 class="quotes">“The rocket will free man from his remaining chains, the chains of gravity which still tie him to this planet. It will open to him the gates of heaven.”</h3>
+			<img src="img/bob.png" align="left"/> <h4 class="author_name_white">Wernher von Braun</h4>
+		</div>
+	<div id="copyright"><a href="https://paperplanetechnologies.com/">Designed by Paper Plane Technologies</a></div> 
+	</div> 
+</div> 
+<!----- SLIDES END --->
+</body>
+</html>
