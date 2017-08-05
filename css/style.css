@@ -4,52 +4,55 @@ body {
 	width: 100%;
 }
 
-h1 {
+h1, h2, h3, h4 {
 	font-family: "Arvo";
-	font-weight:normal;
-	font-size: 55px;
-	text-align: center;
-	color: #fff;
+	font-weight: normal;
 	margin: 0;
 	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
 }
 
 h2 {
-	font-family: "Arvo";
-	font-weight: normal;
 	font-size: 40px;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
 }
 
 h3 {
-	font-family: Oswald;
-	font-weight: normal;
-	font-size: 16px;
-	text-align: center;
-	margin: 5px 0;
-	padding: 0;
-	z-index: 1;
+	font-size: 35px;
 	position: relative;
 }
 
-
-
-
-
-.center { 
-	margin: 0 auto; 
-
-}
-.content { 
-	margin: 0 auto; 
-	width: 960px; 
+h4 {
+	font-size: 27px;
 }
 
-.clear { 
-	clear: both; 
+li {
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+ul {
+	float: left;
+}
+
+
+
+
+
+.center {
+	margin: 0 auto;
+}
+
+.content {
+	margin: auto;
+	width: 960px;
+}
+
+.clear {
+	clear: both;
 }
 
 
@@ -57,26 +60,28 @@ h3 {
 
 #header {
 	width: 100%;
-	background-color: rgba(120, 120, 120, 0.4);
+	background-color: rgba(153, 216, 224, 0.7);
 	height: 80px;
 	position: fixed;
-	margin-top: 30px;
+	margin-top: 0px;
+	z-index: 1;
 }
 
 #nav {
-	float: right; 
-	margin-top: 20px; 
+	float: right;
+	margin-top: 20px;
+
 }
 
-#logo a { 
-	color: #fff; 
-	text-decoration: none; 
-	float: left; 
-	font-size: 30px; 
-	margin-top: 20px; 
-	color: #fff; 
-	font-family:"Ubuntu"; 
-	font-weight: bold; 
+#logo a {
+	color: #f0ff32;
+	text-decoration: none;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+	font-family:"Ubuntu";
+	font-weight: bold;
+
 }
 
 #nav ul {
@@ -92,178 +97,106 @@ h3 {
 	padding-left: 30px;
 }
 
-#nav li a { 
-	color: ghostwhite; 
-	opacity: 0.6; 
-	font-size: 16px; 
-	text-decoration: none; 
-	font-family: 'Ubuntu'; 
-	text-shadow: 2px 2px 2px black;
+#nav li a {
+	color: #FaF81e;
+	opacity: 0.8;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Ubuntu';
+
 }
 
-#nav li a:hover { 
-	color: white; 
-	opacity: 1; 
-}
-
-
-
-
-
-
-
-.quotes {
-	font-family: 'Slabo 27px', serif;
-	font-weight: normal;
-	font-size: 30px;
-	text-align: left;
-	margin: 50px auto;
-}
-
-.author_name_white { 
-	font-family:"Ubuntu"; 
-	margin: 70px 0 0 75px; 
-	color: #fff; 
-	font-size: 20px; 
-}
- 
-.author_name_gray { 
-	font-family:"Ubuntu"; 
-	margin: 70px 0 0 75px; 
-	color: #94a4a4; 
-	font-size: 20px; 
-}
- 
-.quotes_container { 
-	width: 800px; 
-	margin: 0 auto; 
+#nav li a:hover {
+	color: yellow;
+	opacity: 1;
 }
 
 
-/************************************************************ Images *****************************************************************/
+/************************************************************ Images
+*****************************************************************/
 
-#christmas_tree { 
-	background: url('../img/christmas-tree.png')no-repeat; 
-	width: 48px; 
-	height: 77px; 
-	margin: 0 auto; 
-	position: relative; 
-	bottom: -35px;
+.grid {
+	float: right;
+	margin-top: -20px;
 }
 
-#divider { 
-	background: url('../img/divider.png')no-repeat; 
-	width: 300px; 
-	height: 35px; 
-	margin: 0px auto 27px auto; 
-}
-
-#ribbon { 
-	background: url('../img/ribbon.png')no-repeat; 
-	width: 251px; 
-	height: 48px; 
-	margin: 0 auto; 
-	display: block; 
-	position: relative; 
-	top: -38px; 
-}
-
-#snowflakes1 { 
-	background: url('../img/snowflakes.png')no-repeat; 
-	width: 24px; 
-	height: 21px; 
-	margin: 0 auto; 
-	display: block; 
-	position: relative; 
-	bottom: -54px; 
-	left: -202px; 
-}
-
-#snowflakes2 { 
-	background: url('../img/snowflakes.png')no-repeat; 
-	width: 24px; 
-	height: 21px; 
-	margin: 0 auto; 
-	display: block; 
-	position: relative; 
-	bottom: -33px; 
-	right: -200px; 
+.grid img {
+	width: 140px;
+	height: 140px;
+	margin: 2px;
+	margin-left: 5px;
 }
 
 
 
 /******************************************************************* Slides ************************************************************/
 
-#slide1, #slide2 { 
-	width: 100%; 
+#slide1, #slide2 {
+	width: 100%;
+}
+
+#slide1, #slide3, #slide5 {
+	color: #f3ff54;
+	text-shadow: 3px 3px 1px black;
+}
+
+#slide2, #slide4 {
+	color: #CCCCCC;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0px 230px 0px;
 }
 
 #slide1 {
-	background: url('../img/space1.jpg') 50% 0 no-repeat fixed;
-	color: #fff;
+	background: url('../img/house1.jpg') 50% 0 no-repeat fixed;
 	height: 400px;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	padding: 300px 0px 260px 0px;
 	background-size: cover;
 }
 
 #slide2 {
-	background-color: #111111;
-	color: #CCCCCC;
-	height: 300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 200px 0;
+	background-color: #70AF70;
 }
 
 #slide3 {
-	background: url(../img/space2.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
+	background: url('../img/house2.jpg') 50% 0 no-repeat fixed;
 	height: 600px;
-	padding: 170px 0 0 0;
+	padding: 250px 0 0 0;
 	background-size: cover;
 }
 
 #slide4 {
-	background-color: #111111;
+	background-color: #4070AF;
 	color: #CCCCCC;
 	height: 300px;
 	padding: 200px 0;
 }
 
 #slide5 {
-	background: url(../img/space3.jpg) 50% 0 no-repeat fixed;
+	background: url('../img/house3.jpg') 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
-	color: #fff;
 	background-size: cover;
 }
 
 /********************************************************************* Copyright ********************************************************/
 
-#copyright { 
-
-	font-family:"Ubuntu"; 
-	font-size: 14px; 
-	margin-top: 160px; 
-	text-align: center; 
+#copyright {
+	font-family:"Ubuntu";
+	font-size: 14px;
+	margin-top: 160px;
+	text-align: center;
+	text-shadow: none;
 }
 
-#copyright a { 
+#copyright a {
 	text-decoration: none;
-	color: #555555; 
+	color: #000000;
 }
 
-
-
-
-
-
-.shadow {
-	text-shadow: 4px 4px 5px #111111;
-}
-
-.blur {
-	text-shadow: 1px 1px 90px lemonchiffon;
+#wrapper {
+	text-align: center;
 }
