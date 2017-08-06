@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
 
 body {
 	margin: 0;
@@ -15,20 +16,25 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;.
+    
 }
 
 h2 {
 	font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
 	font-size: 35px;
 	position: relative;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h4 {
-	font-size: 27px;
+	font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 li {
@@ -88,6 +94,9 @@ ul {
 	font-family:"Zilla Slab", serif;
 	margin-left: -100px;
 }
+#logo a:hover{
+   color: #efa9a9;
+}
 
 #nav ul {
 	list-style: none;
@@ -114,7 +123,7 @@ ul {
 }
 
 #nav li a:hover {
-	color: yellow;
+	color: #efa9a9;
 	opacity: 1;
 }
 
@@ -142,12 +151,12 @@ ul {
 }
 
 #slide1, #slide3, #slide5 {
-	color: #efa9a9;
+	color: #fff8f8;
 	text-shadow: 2px 2px 1px #434343;
 }
 
 #slide2, #slide4, #slide6 {
-	color: #FFFFFF;
+	color: #262626;
 	height: 200px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -162,8 +171,8 @@ ul {
 }
 
 #slide2 {
-	background-color: #70AF70;
-	padding: 70px 0px 250px 0px;
+	background-color: #ffe6e1;
+	padding: 100px 0px 250px 0px;
 }
 
 #slide3 {
@@ -176,7 +185,7 @@ ul {
 #slide4 {
 	background-color: #4070AF;
 	height: 370px;
-	padding: 80px 0px 100px 0px;
+	padding: 100px 0px 250px 0px;
 }
 
 #slide5 {
@@ -211,7 +220,7 @@ ul {
 }
 
 #copyright a:hover {
-	text-decoration: underline;
+	color: #efa9a9;
 }
 
 #wrapper {
