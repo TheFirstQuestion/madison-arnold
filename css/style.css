@@ -83,6 +83,7 @@ ul {
 #nav {
 	float: right;
 	margin-top: 20px;
+	color: white;
 }
 
 #logo a {
@@ -119,7 +120,6 @@ ul {
 	font-size: 20px;
 	text-decoration: none;
 	font-family: "Zilla Slab", serif;
-
 }
 
 #nav li a:hover {
