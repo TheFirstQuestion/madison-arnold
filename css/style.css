@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -61,7 +63,7 @@ ul {
 
 #header {
 	width: 100%;
-	background-color: rgba(153, 216, 224, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	height: 80px;
 	position: fixed;
 	margin-top: 0px;
@@ -71,18 +73,15 @@ ul {
 #nav {
 	float: right;
 	margin-top: 20px;
-
 }
 
 #logo a {
-	color: #f0ff32;
+	color: #ffffff;
 	text-decoration: none;
 	float: left;
-	font-size: 30px;
-	margin-top: 20px;
-	font-family:"Ubuntu";
-	font-weight: bold;
-
+	font-size: 50px;
+	margin-top: 10px;
+	font-family:"Zilla Slab", serif;
 }
 
 #nav ul {
@@ -99,11 +98,11 @@ ul {
 }
 
 #nav li a {
-	color: #FaF81e;
+	color: #ffffff;
 	opacity: 0.8;
-	font-size: 16px;
+	font-size: 20px;
 	text-decoration: none;
-	font-family: 'Ubuntu';
+	font-family: "Zilla Slab", serif;
 
 }
 
@@ -136,8 +135,8 @@ ul {
 }
 
 #slide1, #slide3, #slide5 {
-	color: #f3ff54;
-	text-shadow: 3px 3px 1px black;
+	color: #efa9a9;
+	text-shadow: 2px 2px 1px #434343;
 }
 
 #slide2, #slide4, #slide6 {
@@ -149,7 +148,7 @@ ul {
 }
 
 #slide1 {
-	background: url('../img/house1.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/floral.jpg') 50% 0 no-repeat fixed;
 	height: 400px;
 	margin: 0;
 	padding: 300px 0px 260px 0px;
