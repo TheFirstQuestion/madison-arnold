@@ -5,10 +5,6 @@
 	<title>Company Name | motto</title>
 	<link rel="stylesheet" href="css/style.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 
 
 	<script>
@@ -21,7 +17,7 @@
 				if ($target) {
 					var targetOffset = $target.offset().top;
 					$(this).click(function() {
-						$('html, body').animate({scrollTop: targetOffset}, 600);
+						$('html, body').animate({scrollTop: targetOffset - 80}, 600);
 						return false;
 					});
 				}
@@ -37,13 +33,13 @@
 <!--- HEADER START--->
 <header id="header">
 	<div class="content">
-		<div id="logo" class="blur"><a href="#slide1"> M | A </a></div>
+		<div id="logo"><a href="#slide1"> M | A </a></div>
 		<nav id="nav">
 		<ul>
 			<li><a href="#slide1" title="About">About</a></li>
-            <li><div style="color:white">|</div></li>
+            <li>|</li>
 			<li><a href="#slide3" title="Testimonials">Testimonials</a></li>
-            <li><div style="color:white">|</div></li>
+            <li>|</li>
 			<li><a href="#slide4" title="Contact Us">Contact Us</a></li>
 		</ul>
 		</nav>
