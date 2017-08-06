@@ -40,9 +40,13 @@ ul {
 	float: left;
 }
 
+#slide4 ul {
+	list-style: none;
+}
+
 #flickrembed {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 .center {
@@ -59,7 +63,7 @@ ul {
 }
 
 
-/****************************************************** Heading ***************************************************************/
+/****************************************************** Header ***************************************************************/
 
 #header {
 	width: 100%;
@@ -82,6 +86,7 @@ ul {
 	font-size: 50px;
 	margin-top: 10px;
 	font-family:"Zilla Slab", serif;
+	margin-left: -100px;
 }
 
 #nav ul {
@@ -89,6 +94,8 @@ ul {
 	display: block;
 	margin: 0 auto;
 	list-style: none;
+	margin-right: -160px;
+	margin-top: -8px;
 }
 
 #nav li {
@@ -140,11 +147,10 @@ ul {
 }
 
 #slide2, #slide4, #slide6 {
-	color: #CCCCCC;
+	color: #FFFFFF;
 	height: 200px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 100px 0px 230px 0px;
 }
 
 #slide1 {
@@ -157,6 +163,7 @@ ul {
 
 #slide2 {
 	background-color: #70AF70;
+	padding: 70px 0px 250px 0px;
 }
 
 #slide3 {
@@ -168,9 +175,8 @@ ul {
 
 #slide4 {
 	background-color: #4070AF;
-	color: #CCCCCC;
-	height: 300px;
-	padding: 200px 0;
+	height: 370px;
+	padding: 80px 0px 100px 0px;
 }
 
 #slide5 {
@@ -183,9 +189,9 @@ ul {
 
 #slide6 {
 	background-color: #AF704F;
-	color: #CCCCCC;
-	height: 650px;
-	padding: 20px 0;
+	height: 700px;
+	padding: 50px 0;
+	padding-bottom: 20px;
 }
 
 /********************************************************************* Copyright ********************************************************/
@@ -193,9 +199,10 @@ ul {
 #copyright {
 	font-family:"Ubuntu";
 	font-size: 14px;
-	margin-top: 160px;
+	margin-top: 250px;
 	text-align: center;
 	text-shadow: none;
+	margin-bottom: 10px;
 }
 
 #copyright a {
@@ -203,6 +210,41 @@ ul {
 	color: #000000;
 }
 
+#copyright a:hover {
+	text-decoration: underline;
+}
+
 #wrapper {
+	text-align: center;
+}
+
+
+/*************************************************************************************** Form ***************************************************************/
+
+#gform {
+	float: right;
+	width: 500px;
+	font-family: "Arvo";
+	border: none;
+	margin-top: -25px;
+}
+
+input, textarea {
+	width: 100%;
+}
+
+fieldset {
+	border: none;
+}
+
+button {
+	margin-left: 10px;
+}
+
+#thankyou_message {
+	float: right;
+	width: 500px;
+	font-family: "Arvo";
+	margin-top: -25px;
 	text-align: center;
 }
