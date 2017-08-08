@@ -8,7 +8,6 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Arvo";
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
@@ -43,7 +42,10 @@ li {
 }
 
 ul {
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: none;
 	float: left;
+    color: white;
 }
 
 #slide4 ul {
@@ -67,6 +69,7 @@ ul {
 .clear {
 	clear: both;
 }
+
 
 
 /****************************************************** Header ***************************************************************/
@@ -142,7 +145,9 @@ ul {
 	margin-left: 5px;
 }
 
-
+#inLine{
+    display: inline-block;
+}
 
 /******************************************************************* Slides ************************************************************/
 
@@ -157,7 +162,7 @@ ul {
 
 #slide2, #slide4, #slide6 {
 	color: #262626;
-	height: 200px;
+	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -171,25 +176,26 @@ ul {
 }
 
 #slide2 {
-	background-color: #ffe6e1;
+    color: white;
+	background: url('../img/slide2') 50% 0 no-repeat fixed;
 	padding: 100px 0px 250px 0px;
 }
 
 #slide3 {
-	background: url('../img/house2.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/forest.jpg') 50% 0 no-repeat fixed;
 	height: 600px;
 	padding: 250px 0 0 0;
 	background-size: cover;
 }
 
 #slide4 {
-	background-color: #4070AF;
+	background: url('../img/slide4') 50% 0 no-repeat fixed;
 	height: 370px;
 	padding: 100px 0px 250px 0px;
 }
 
 #slide5 {
-	background: url('../img/house3.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/desertMT.jpg') 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
@@ -197,7 +203,8 @@ ul {
 }
 
 #slide6 {
-	background-color: #AF704F;
+	background-color: #d9c3b7;
+    color: black;
 	height: 700px;
 	padding: 50px 0;
 	padding-bottom: 20px;
@@ -216,7 +223,7 @@ ul {
 
 #copyright a {
 	text-decoration: none;
-	color: #000000;
+	color: #cbcbcb;
 }
 
 #copyright a:hover {
