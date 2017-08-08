@@ -203,8 +203,8 @@ ul {
 }
 
 #slide6 {
-	background-color: #d9c3b7;
-    color: black;
+	background: url('../img/slide6') 50% 0 no-repeat fixed;
+    color: white;
 	height: 700px;
 	padding: 50px 0;
 	padding-bottom: 20px;
