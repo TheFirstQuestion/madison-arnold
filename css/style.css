@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 h1 {
 	font-size: 80px;
     font-family: 'Josefin Sans', sans-serif;.
-    
+
 }
 
 h2 {
@@ -145,7 +145,7 @@ ul {
 	margin-left: 5px;
 }
 
-#inLine{
+#bars h1, img {
     display: inline-block;
 }
 
@@ -168,7 +168,7 @@ ul {
 }
 
 #slide1 {
-	background: url('../img/floral.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	height: 400px;
 	margin: 0;
 	padding: 300px 0px 260px 0px;
@@ -182,10 +182,12 @@ ul {
 }
 
 #slide3 {
-	background: url('../img/forest.jpg') 50% 0 no-repeat fixed;
-	height: 600px;
-	padding: 250px 0 0 0;
+	background: url('../img/slide3.jpg') 50% 0 no-repeat fixed;
+	height: 300px;
+	padding: 100px 0px 100px 0px;
 	background-size: cover;
+	position: relative;
+	overflow: hidden;
 }
 
 #slide4 {
@@ -195,7 +197,7 @@ ul {
 }
 
 #slide5 {
-	background: url('../img/desertMT.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/slide5.jpg') 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
@@ -263,4 +265,54 @@ button {
 	font-family: "Arvo";
 	margin-top: -25px;
 	text-align: center;
+	display: none;
+}
+
+
+
+/*********************************************************************** Testimonial Slideshow *********************************************/
+
+.item-1,
+.item-2,
+.item-3 {
+	position: absolute;
+ 	display: block;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	top: 0px;
+  	width: 80%;
+  	font-size: 2em;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  	8.3%,25% { left: 10%; opacity: 1; }
+  	33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  	41.63%, 58.29% { left: 10%; opacity: 1; }
+  	66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  	74.96%, 91.62% { left: 10%; opacity: 1; }
+  	100% { left: 110%; opacity: 0; }
 }
