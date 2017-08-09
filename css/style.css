@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 h1 {
 	font-size: 80px;
     font-family: 'Josefin Sans', sans-serif;.
-    
+
 }
 
 h2 {
@@ -145,7 +145,7 @@ ul {
 	margin-left: 5px;
 }
 
-#inLine{
+#bars h1, img {
     display: inline-block;
 }
 
@@ -168,7 +168,7 @@ ul {
 }
 
 #slide1 {
-	background: url('../img/floral.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	height: 400px;
 	margin: 0;
 	padding: 300px 0px 260px 0px;
@@ -182,7 +182,7 @@ ul {
 }
 
 #slide3 {
-	background: url('../img/forest.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/slide3.jpg') 50% 0 no-repeat fixed;
 	height: 600px;
 	padding: 250px 0 0 0;
 	background-size: cover;
@@ -195,7 +195,7 @@ ul {
 }
 
 #slide5 {
-	background: url('../img/desertMT.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/slide5.jpg') 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
@@ -263,4 +263,5 @@ button {
 	font-family: "Arvo";
 	margin-top: -25px;
 	text-align: center;
+	display: none;
 }
