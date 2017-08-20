@@ -274,7 +274,8 @@ button {
 
 .item-1,
 .item-2,
-.item-3 {
+.item-3,
+.item-4{
 	position: absolute;
  	display: block;
 	margin-top: 100px;
@@ -299,6 +300,10 @@ button {
 	animation-name: anim-3;
 }
 
+.item-4{
+	animation-name: anim-4;
+}
+
 @keyframes anim-1 {
 	0%, 8.3% { left: -100%; opacity: 0; }
   	8.3%,25% { left: 10%; opacity: 1; }
@@ -312,6 +317,12 @@ button {
 }
 
 @keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  	74.96%, 91.62% { left: 10%; opacity: 1; }
+  	100% { left: 110%; opacity: 0; }
+}
+@keyframes anim-4 {
+    <-- this ??? -->
 	0%, 66.66% { left: -100%; opacity: 0; }
   	74.96%, 91.62% { left: 10%; opacity: 1; }
   	100% { left: 110%; opacity: 0; }
