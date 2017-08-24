@@ -132,20 +132,21 @@
 		<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbynOZc52G9vtjUf81y-y-twPNYRP7Lkm6WUD6rYAGw5VDB_ww61/exec">
 
 		    <fieldset>
-		      <label for="name">Name: </label>
-		      <input id="name" name="name" placeholder="John Smith" />
+		      <label id="tag" for="name">Name: </label>
+		      <input id="fourmText" id="name" name="name" placeholder="John Smith" />
+		    </fieldset>
+
+		    <fieldset id>
+		      <label id="tag" for="message">Message: </label>
+		      <textarea id="fourmText" id="message" name="message" rows="10"
+		      placeholder="Tell us what's on your mind!"></textarea>
 		    </fieldset>
 
 		    <fieldset>
-		      <label for="message">Message: </label>
-		      <textarea id="message" name="message" rows="10"
-		      placeholder="Tell us what's on your mind..."></textarea>
-		    </fieldset>
-
-		    <fieldset>
-		      <label for="email"><em>Your</em> Email Address:</label>
-		      <input id="email" name="email" type="email" value=""
-		      required placeholder="your.name@email.com"/>
+		      <label id="tag" for="email"><em>Your</em> Email Address:</label>
+		      <input id="fourmText" id="email" name="email" type="email" value=""
+		      required placeholder="you@email.com"/>
+                
 		      <span id="email-invalid" style="display:none">
 		        Must be a valid email address</span>
 		    </fieldset>

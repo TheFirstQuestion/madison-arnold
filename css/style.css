@@ -215,7 +215,7 @@ ul {
 /********************************************************************* Copyright ********************************************************/
 
 #copyright {
-	font-family:"Ubuntu";
+	font-family: "Zilla Slab", serif;
 	font-size: 14px;
 	margin-top: 250px;
 	text-align: center;
@@ -238,6 +238,18 @@ ul {
 
 
 /*************************************************************************************** Form ***************************************************************/
+#fourmText {
+    color: #000000;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: "Zilla Slab", serif;
+}
+#tag {
+    color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "Zilla Slab", serif;
+}
 
 #gform {
 	float: right;
