@@ -283,7 +283,7 @@ button {
 	top: 0px;
   	width: 80%;
   	font-size: 2em;
-	animation-duration: 20s;
+	animation-duration: 30s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 }
@@ -305,25 +305,25 @@ button {
 }
 
 @keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  	8.3%,25% { left: 10%; opacity: 1; }
-  	33.33%, 100% { left: 110%; opacity: 0; }
+	0%, 3% { left: -100%; opacity: 0; }
+  	8%, 23% { left: 10%; opacity: 1; }
+  	28%, 100% { left: 110%; opacity: 0; }
 }
 
 @keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  	41.63%, 58.29% { left: 10%; opacity: 1; }
-  	66.66%, 100% { left: 110%; opacity: 0; }
+	0%, 25% { left: -100%; opacity: 0; }
+  	30%, 45% { left: 10%; opacity: 1; }
+  	50%, 100% { left: 110%; opacity: 0; }
 }
 
 @keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  	74.96%, 91.62% { left: 10%; opacity: 1; }
-  	100% { left: 110%; opacity: 0; }
+	0%, 47% { left: -100%; opacity: 0; }
+  	52%, 67% { left: 10%; opacity: 1; }
+  	72%, 100% { left: 110%; opacity: 0; }
 }
+
 @keyframes anim-4 {
-    <-- this ??? -->
-	0%, 66.66% { left: -100%; opacity: 0; }
-  	74.96%, 91.62% { left: 10%; opacity: 1; }
-  	100% { left: 110%; opacity: 0; }
+	0%, 69% { left: -100%; opacity: 0; }
+  	74%, 89% { left: 10%; opacity: 1; }
+  	92%, 100% { left: 110%; opacity: 0; }
 }
