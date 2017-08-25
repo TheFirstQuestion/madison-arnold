@@ -52,6 +52,14 @@ ul {
 	list-style: none;
 }
 
+#slide4 ul a {
+	color: yellow;
+}
+
+#slide4 ul a:visited {
+	color: yellow;
+}
+
 #flickrembed {
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -238,7 +246,7 @@ ul {
 
 
 /*************************************************************************************** Form ***************************************************************/
-#fourmText {
+#formText {
     color: #000000;
 	font-size: 15px;
 	text-decoration: none;
