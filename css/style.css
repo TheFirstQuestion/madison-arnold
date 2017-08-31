@@ -192,7 +192,7 @@ ul {
 #slide3 {
 	background: url('../img/slide3.jpg') 50% 0 no-repeat fixed;
 	height: 300px;
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 150px 0px;
 	background-size: cover;
 	position: relative;
 	overflow: hidden;
@@ -295,7 +295,8 @@ button {
 .item-1,
 .item-2,
 .item-3,
-.item-4{
+.item-4,
+.item-5 {
 	position: absolute;
  	display: block;
 	margin-top: 100px;
@@ -303,7 +304,7 @@ button {
 	top: 0px;
   	width: 80%;
   	font-size: 2em;
-	animation-duration: 30s;
+	animation-duration: 50s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 }
@@ -324,26 +325,36 @@ button {
 	animation-name: anim-4;
 }
 
+.item-5 {
+	animation-name: anim-5;
+}
+
 @keyframes anim-1 {
-	0%, 3% { left: -100%; opacity: 0; }
-  	8%, 23% { left: 10%; opacity: 1; }
-  	28%, 100% { left: 110%; opacity: 0; }
+	0%, 2% { left: -100%; opacity: 0; }
+  	4%, 21% { left: 10%; opacity: 1; }
+  	23%, 100% { left: 110%; opacity: 0; }
 }
 
 @keyframes anim-2 {
-	0%, 25% { left: -100%; opacity: 0; }
-  	30%, 45% { left: 10%; opacity: 1; }
-  	50%, 100% { left: 110%; opacity: 0; }
+	0%, 21% { left: -100%; opacity: 0; }
+  	23%, 40% { left: 10%; opacity: 1; }
+  	42%, 100% { left: 110%; opacity: 0; }
 }
 
 @keyframes anim-3 {
-	0%, 47% { left: -100%; opacity: 0; }
-  	52%, 67% { left: 10%; opacity: 1; }
-  	72%, 100% { left: 110%; opacity: 0; }
+	0%, 40% { left: -100%; opacity: 0; }
+  	42%, 59% { left: 10%; opacity: 1; }
+  	61%, 100% { left: 110%; opacity: 0; }
 }
 
 @keyframes anim-4 {
-	0%, 69% { left: -100%; opacity: 0; }
-  	74%, 89% { left: 10%; opacity: 1; }
-  	92%, 100% { left: 110%; opacity: 0; }
+	0%, 59% { left: -100%; opacity: 0; }
+  	61%, 78% { left: 10%; opacity: 1; }
+  	80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-5 {
+	0%, 78% { left: -100%; opacity: 0; }
+  	80%, 97% { left: 10%; opacity: 1; }
+	99%, 100% { left: 110%; opacity: 0; }
 }
