@@ -153,6 +153,10 @@ ul {
 	margin-left: 5px;
 }
 
+#bars {
+	width: 1000px;
+}
+
 #bars h1, img {
     display: inline-block;
 }
